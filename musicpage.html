@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Page</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+.heading{
+    color:#ff6b6b;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-bottom:60px;
+}
+
+.feature{
+    width:150px;
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    background:black;
+    color:#1e90ff;
+    border-radius:50%;
+    margin:auto;
+    line-height:60px;
+    font-size:24px;
+}
+
+.feature h4{
+    margin-top:10px;
+}
+
+.feature p{
+    color:gray;
+    font-size:12px;
+}
+
+.guests{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:25px;
+    margin-bottom:60px;
+}
+
+.card{
+    width:220px;
+    padding:20px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+.card h4{
+    margin:10px 0;
+}
+
+.card p{
+    font-size:12px;
+    color:gray;
+    margin-bottom:10px;
+}
+
+button{
+    background:#d46a6a;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    cursor:pointer;
+}
+
+.buy{
+    margin-top:20px;
+}
+
+.albums{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+    margin-bottom:50px;
+}
+
+.album{
+    width:180px;
+    text-align:left;
+}
+
+.album img{
+    width:100%;
+    height:140px;
+    object-fit:cover;
+}
+
+.album h4{
+    margin-top:10px;
+}
+
+.album p{
+    color:gray;
+    font-size:12px;
+}
+
+.red{
+    color:#ff6b6b;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2 class="heading">Get ready for seamless online music</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            <div class="icon">↓</div>
+            <h4>Offline mode</h4>
+            <p>Save and listen anywhere.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">HQ</div>
+            <h4>High quality audio</h4>
+            <p>Enjoy the full range of sound.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">♫</div>
+            <h4>No ads</h4>
+            <p>Enjoy nonstop music.</p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">▶</div>
+            <h4>Unlimited skips</h4>
+            <p>Just tap skip.</p>
+        </div>
+
+    </div>
+
+    <h2 class="red">Featured Guests</h2>
+
+    <div class="guests">
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg">
+            <h4>Megan Smith</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Register</button>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg">
+            <h4>Brooke Kagle</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Register</button>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg">
+            <h4>Philip Martin</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Register</button>
+        </div>
+
+    </div>
+
+    <h2 class="red buy">BUY WHAT'S NEW</h2>
+
+    <div class="albums">
+
+        <div class="album">
+            <img src="https://picsum.photos/300/200?random=1">
+            <h4>Garage Band</h4>
+            <p>Radio Station</p>
+        </div>
+
+        <div class="album">
+            <img src="https://picsum.photos/300/200?random=2">
+            <h4>Garage Band</h4>
+            <p>Radio Station</p>
+        </div>
+
+        <div class="album">
+            <img src="https://picsum.photos/300/200?random=3">
+            <h4>Garage Band</h4>
+            <p>Radio Station</p>
+        </div>
+
+        <div class="album">
+            <img src="https://picsum.photos/300/200?random=4">
+            <h4>Garage Band</h4>
+            <p>Radio Station</p>
+        </div>
+
+        <div class="album">
+            <img src="https://picsum.photos/300/200?random=5">
+            <h4>Garage Band</h4>
+            <p>Radio Station</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
